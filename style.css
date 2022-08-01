@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #008000;
+
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  color: goldenrod;
+}
+
+.messages {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f0f8ff;
+  font-size: 1.5em;
+
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#message-el {
+  margin-top: 0;
+}
+
+#message-el2 {
+  display: none;
+}
+
+#greetings-el {
+  font-size: 40px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 40px 10px 40px;
+  width: 250px;
+  background-color: #7fffd4;
+  border-radius: 20px;
+  border: 0;
+  color: #d2691e;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .2s linear,
+  color .2s linear;
+}
+
+.button:hover {
+  background-color: #d2691e;
+  color: #7fffd4;
+}

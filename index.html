@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="text">Blackjack</p>
+      <div class="messages">
+        <p id="message-el">Want to play a round?</p>
+        <p id="card-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <p id="player-el"></p>
+      </div>
+      <div class="buttons">
+        <button class="button" id="button-start" onclick="startGame()">start game</button>
+        <button class="button" id="button-draw" onclick="drawCard()">new card</button>
+        <button class="button" id="button-restart" onclick="restartGame()">rerstart game</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
